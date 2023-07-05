@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #e5beec;
+  font-family: "Poppins", sans-serif;
+}
+
+/* header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #2a2f4f;
+  color: #fde2f3;
+} */
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: #2a2f4f;
+  color: #fde2f3;
+  top: 0;
+}
+
+main {
+  justify-content: center;
+  margin-top: 150px;
+  width: 100%;
+}
+
+header h1 {
+  margin: auto;
+}
+
+.main--questioncard {
+  padding: 50px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: solid 2px #2a2f4f;
+  border-radius: 5px;
+  margin: 20px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 10%;
+  top: -10px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+section ul li {
+  border: solid 2px black;
+  border-radius: 5px;
+  list-style: none;
+  padding: 5px;
+}
+
+.main--question--button {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+}
+
+footer ul {
+  display: flex;
+  padding: 30px 100px;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: #2a2f4f;
+  color: #fde2f3;
+  bottom: 0;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
