@@ -1,0 +1,138 @@
+.profile__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.profile__name {
+  font-size: 40px;
+}
+.profile__image {
+  border-radius: 70%;
+}
+.aboutMe {
+  margin-bottom: 20px;
+}
+
+.aboutMe__description {
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+.highlight {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  text-align: center;
+  align-items: center;
+}
+.highlight__counter,
+.highlight__bookmark {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.highlight__icon {
+  height: 20px;
+  width: 20px;
+}
+.settings {
+  margin-bottom: 40px;
+  border: solid 2px #2a2f4f;
+  border-radius: 5px;
+  padding: 20px;
+}
+.settings__title {
+  margin-bottom: 30px;
+}
+
+.settings__div {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.settings__label {
+  font-weight: bold;
+  border-top: ;
+}
+
+/* SLIDER */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  body {
+    display: block;
+  }
+  .profile__image {
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile__container {
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+
+  .aboutMe__description {
+    max-width: 100%;
+  }
+}

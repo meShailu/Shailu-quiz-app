@@ -3,62 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>TECNO-QUIZ - Bookmark</title>
     <link rel="Stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
-      rel="stylesheet"
-    />
+
+    <link rel="Stylesheet" href="global.css" />
   </head>
   <body>
     <header>
-      <h1 class="Appname">JUMBLE WORDS</h1>
+      <h1 class="header__appName">TECNO-QUIZ</h1>
     </header>
     <main>
-      <section class="main--questioncard">
+      <section class="questionCard">
+        <a
+          ><img
+            class="questionCard__icon"
+            src="images/bookmark_section.png"
+            alt="bookmark"
+        /></a>
         <p>Question number 1</p>
-        <button class="main--question--button" type="button">
+        <button class="questionCard__button" type="button">
           SUBMIT ANSWER
         </button>
-        <ul class="main--question--answers">
+        <ul class="questionCard__tagList">
           <li>#Option 1</li>
           <li>#Option 2</li>
           <li>#Option3</li>
         </ul>
       </section>
-      <section class="main--questioncard">
-        <p>Question number 2</p>
-        <button class="main--question--button" type="button">
-          SUBMIT ANSWER
-        </button>
-        <ul class="main--question--answers">
-          <li>#Option 1</li>
-          <li>#Option 2</li>
-          <li>#Option 3</li>
-        </ul>
-      </section>
-      <section class="main--questioncard">
-        <p>Question number 3</p>
-        <button class="main--question--button" type="button">
-          SUBMIT ANSWER
-        </button>
-        <ul class="main--question--answers">
-          <li>#Option 1</li>
-          <li>#Option 2</li>
-          <li>#Option 3</li>
-        </ul>
-      </section>
     </main>
-    <footer class="main-footer">
-      <ul>
-        <li><img class="img" src="download.png" alt="Home Image" /></li>
+    <footer>
+      <ul class="footer__nav">
         <li>
-          <img class="img" src="download (1).png" alt="Bookmark Image" />
+          <a href="index.html"
+            ><img
+              class="footer__homeImg"
+              src="images/home.png"
+              alt="Home Image"
+            />
+          </a>
         </li>
         <li>
-          <img class="img" src="download (2).png" alt="Profile Image" />
+          <a href="bookmarks.html"
+            ><img
+              class="footer__bookmarkImg"
+              src="images/bookmark.png"
+              alt="Bookmark Image"
+          /></a>
+        </li>
+        <li>
+          <a href="profile.html"
+            ><img
+              class="footer__profileImg"
+              src="images/user.png"
+              alt="Profile Image"
+          /></a>
         </li>
       </ul>
     </footer>
