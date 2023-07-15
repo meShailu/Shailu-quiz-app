@@ -1,0 +1,57 @@
+@import url(./global.css);
+
+form {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba 0, 0, 0, 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 200px;
+  border: solid 2px #e9b384;
+}
+
+#my-text-remaining-chars {
+  color: black;
+  font-size: 14px;
+  text-align: right;
+}
+
+#tag {
+  width: 120%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 200px;
+}
+
+.question__submit--button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+button {
+  outline: none;
+}

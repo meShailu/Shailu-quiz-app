@@ -136,3 +136,7 @@ input:checked + .slider:before {
     max-width: 100%;
   }
 }
+
+.hidden {
+  display: none;
+}
