@@ -31,8 +31,8 @@ form.addEventListener("submit", (event) => {
 
   //creating answer
   const answerText = document.createElement("p");
-  answerText.classList.add("hidden");
-  answerText.textContent = "answer";
+  answerText.setAttribute("hidden", true);
+  answerText.textContent = answer;
   answerText.id = "answer";
 
   //creating tags

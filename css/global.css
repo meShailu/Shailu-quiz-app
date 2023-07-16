@@ -29,6 +29,7 @@ footer {
   bottom: 0;
   display: inline-block;
   background-color: #7c9d96;
+  z-index: 1;
 }
 .footer__nav {
   list-style: none;
