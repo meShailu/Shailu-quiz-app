@@ -2,9 +2,9 @@ const bookmarkImage = document.getElementById("bookmark");
 let isBookmarked = true;
 bookmarkImage.addEventListener("click", function () {
   if (isBookmarked) {
-    bookmarkImage.src = "../images/bookmark_section.png";
+    bookmarkImage.src = "./images/bookmark_section.png";
   } else {
-    bookmarkImage.src = "../images/bookmark.png";
+    bookmarkImage.src = "./images/bookmark.png";
   }
   isBookmarked = !isBookmarked;
 });
