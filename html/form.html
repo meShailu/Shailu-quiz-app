@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App - Form</title>
+    <link rel="Stylesheet" href="../css/global.css" />
+    <link rel="Stylesheet" href="../css/style.css" />
+
+    <link rel="Stylesheet" href="../css/form.css" />
+    <script src="../js/form.js" defer></script>
+
+    
+  </head>
+  <body>
+    <header>
+      <h1 class="header__appName">TECNO-QUIZ</h1>
+    </header>
+    <main class="main-content">
+      <form data-js="form">
+        <label for="form_question">Your question:</label>
+        <textarea id="form_question" name="question"></textarea>
+        <div id="my-text-remaining-chars-question">150 characters remaining</div>
+
+        <label for="form_answer">Your answer:</label>
+        <textarea id="form_answer" name="answer"></textarea>
+        <div id="my-text-remaining-chars-answer">150 characters remaining</div>
+
+        <label for="form_tag">Tag:</label>
+        <input type="text" id="form_tag" name="tag" />
+
+        <button class="question__submit--button" type="submit">Submit</button>
+      </form>
+      <section data-js="card-container">
+    </main>
+  </body>
+  <footer>
+    <ul class="footer__nav">
+      <li>
+        <a href="index.html"><img src="../images/home.png" alt="Home Image" /> </a>
+      </li>
+      <li>
+        <a href="bookmarks.html"
+          ><img src="../images/bookmark.png" alt="Bookmark Image"
+        /></a>
+      </li>
+      <li>
+        <a href="form.html"><img src="../images/plus.png" alt="plus Image" /></a>
+      </li>
+
+      <li>
+        <a href="profile.html"
+          ><img src="../images/user.png" alt="Profile Image"
+        /></a>
+      </li>
+    </ul>
+  </footer>
+</html>

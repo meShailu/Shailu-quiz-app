@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECNO-QUIZ - Home</title>
-    <link rel="Stylesheet" href="style.css" />
+    <link rel="Stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="../js/index.js" defer></script>
+    
 
-    <link rel="Stylesheet" href="global.css" />
+
+    <link rel="Stylesheet" href="../css/global.css" />
   </head>
   <body>
     <header>
@@ -19,51 +22,55 @@
         <a
           ><img
             class="questionCard__icon"
-            src="images/bookmark_section.png"
+            src="../images/bookmark.png"
             alt="bookmark"
+            id="bookmark"
         /></a>
-        <p>Question number 1</p>
-        <button class="questionCard__button" type="button">
-          SUBMIT ANSWER
+        <p>Full-form of HTML?</p>
+        <button class="questionCard__button" type="button" id="toggleButton">Show Answer</button>
+        <p id="answer" class="hidden">HyperText Markup Language</p>
+          
         </button>
         <ul class="questionCard__tagList">
-          <li>#Option 1</li>
-          <li>#Option 2</li>
-          <li>#Option3</li>
+          <li>#javascript</li>
+          <li>#css</li>
+          <li>#html</li>
         </ul>
       </section>
       <section class="questionCard">
         <a
           ><img
             class="questionCard__icon"
-            src="images/bookmark.png"
+            src="../images/bookmark.png"
             alt="bookmark"
         /></a>
-        <p>Question number 2</p>
+        <p>Inside which HTML element do we put the JavaScript?
+
+        </p>
         <button class="questionCard__button" type="button">
-          SUBMIT ANSWER
+          Show Answer
         </button>
         <ul class="questionCard__tagList">
-          <li>#Option 1</li>
-          <li>#Option 2</li>
-          <li>#Option 3</li>
+          <li>#js</li>
+          <li>#css</li>
+          <li>#node</li>
         </ul>
       </section>
       <section class="questionCard">
         <a
           ><img
             class="questionCard__icon"
-            src="images/bookmark.png"
+            src="../images/bookmark.png"
             alt="bookmark"
         /></a>
-        <p>Question number 3</p>
+        <p>How can you add a comment in a JavaScript?</p>
         <button class="questionCard__button" type="button">
-          SUBMIT ANSWER
+          Show Answer
         </button>
         <ul class="questionCard__tagList">
-          <li>#Option 1</li>
-          <li>#Option 2</li>
-          <li>#Option 3</li>
+          <li>#html</li>
+          <li>#java</li>
+          <li>#py</li>
         </ul>
       </section>
     </main>
@@ -72,8 +79,7 @@
         <li>
           <a href="index.html"
             ><img
-              class="footer__homeImg"
-              src="images/home.png"
+              src="../images/home.png"
               alt="Home Image"
             />
           </a>
@@ -81,16 +87,21 @@
         <li>
           <a href="bookmarks.html"
             ><img
-              class="footer__bookmarkImg"
-              src="images/bookmark.png"
+              src="../images/bookmark.png"
               alt="Bookmark Image"
+          /></a>
+        </li>
+        <li>
+          <a href="form.html"
+            ><img
+            src="../images/plus.png"
+            alt="plus Image"
           /></a>
         </li>
         <li>
           <a href="profile.html"
             ><img
-              class="footer__profileImg"
-              src="images/user.png"
+              src="../images/user.png"
               alt="Profile Image"
           /></a>
         </li>

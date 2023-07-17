@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECNO-QUIZ - Profile</title>
-    <link rel="Stylesheet" href="profile.css" />
-    <link rel="Stylesheet" href="global.css" />
+    <link rel="Stylesheet" href="../css/profile.css" />
+    <link rel="Stylesheet" href="../css/global.css" />
+    <script src="../js/profile.js" defer></script>
   </head>
-  <body>
+  <body id="profile">
     <header>
       <h1 class="header__appName">TECNO-QUIZ</h1>
     </header>
     <main>
       <section class="profile">
         <div class="profile__container">
-          <image class="profile__image" src="images/image.jpeg" />
+          <image class="profile__image" src="../images/image.jpeg" />
           <h1 class="profile__name">Kanwar Shailu</h1>
         </div>
 
@@ -32,7 +33,7 @@
         <p class="highlight__counter">
           <img
             class="highlight__icon"
-            src="images/question.png"
+            src="../images/question.png"
             alt="bookmark"
           />
           1
@@ -40,7 +41,7 @@
         <p class="highlight__bookmark">
           <img
             class="highlight__icon"
-            src="images/bookmark_section.png"
+            src="../images/bookmark_section.png"
             alt="bookmark"
           />
           3
@@ -53,7 +54,7 @@
         <div class="settings__div">
           <p class="settings__label">Dark Mode</p>
           <label class="switch settings__toggle">
-            <input type="checkbox" checked />
+            <input type="checkbox" id="darkModeToggle" />
             <span class="slider round"></span>
           </label>
         </div>
@@ -64,27 +65,22 @@
       <ul class="footer__nav">
         <li>
           <a href="index.html"
-            ><img
-              class="footer__homeImg"
-              src="images/home.png"
-              alt="Home Image"
-            />
+            ><img src="../images/home.png" alt="Home Image" />
           </a>
         </li>
         <li>
           <a href="bookmarks.html"
-            ><img
-              class="footer__bookmarkImg"
-              src="images/bookmark.png"
-              alt="Bookmark Image"
+            ><img src="../images/bookmark.png" alt="Bookmark Image"
+          /></a>
+        </li>
+        <li>
+          <a href="form.html"
+            ><img src="../images/plus.png" alt="plus Image"
           /></a>
         </li>
         <li>
           <a href="profile.html"
-            ><img
-              class="footer__profileImg"
-              src="images/user.png"
-              alt="Profile Image"
+            ><img src="../images/user.png" alt="Profile Image"
           /></a>
         </li>
       </ul>

@@ -1,3 +1,9 @@
+#profile.dark-mode {
+  background-color: black;
+  color: #fff; 
+}
+
+
 .profile__container {
   display: flex;
   align-items: center;
@@ -30,7 +36,10 @@
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px 20px;
+  background-color: white;
+    color: black;
 }
+
 .highlight__icon {
   height: 20px;
   width: 20px;
@@ -43,6 +52,12 @@
 }
 .settings__title {
   margin-bottom: 30px;
+}
+
+#darkModeToggle{
+  background-color: black
+  color: #fff;
+
 }
 
 .settings__div {
@@ -135,4 +150,8 @@ input:checked + .slider:before {
   .aboutMe__description {
     max-width: 100%;
   }
+}
+
+.hidden {
+  display: none;
 }
